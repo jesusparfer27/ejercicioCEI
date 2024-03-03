@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    padding-right: 40px;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: fantasy;
+    
+
+}
