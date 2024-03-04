@@ -1,0 +1,46 @@
+div img {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.listafakestore{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+}
+
+.infofakestore {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.imagenfakestore {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.fakestoretitle {
+
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.fakestoreprice {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.fakestoredescription {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+

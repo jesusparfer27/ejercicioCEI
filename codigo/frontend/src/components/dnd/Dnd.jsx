@@ -36,13 +36,14 @@ const Dnd = () => {
 
     return (
         <>
-            <h1>Characters Fetch</h1>
+            <h1>Characters</h1>
             <ul>
                 {characters.map((character) => (
                     <li key={character.index}>{character.name}
                     <a href={character.url}></a></li>
                 ))}
             </ul>
+            <h2></h2>
         </>
     );
 };

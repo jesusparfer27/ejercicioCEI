@@ -1,3 +1,15 @@
 html {
   background-color: lightblue;
+
+}
+
+nav {
+  font-size: 26px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  cursor: pointer;
 }
