@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Dnd from '../components/dnd/Dnd';
-import FakeStore from '../components/fake-store/FakeStore';
-import PokeApi from '../components/poke-api/PokeApi';
+import Dnd from './components/dnd/Dnd';
+import FakeStore from './components/fake-store/FakeStore';
+import PokeApi from './components/poke-api/PokeApi';
 import './App.css';
 
 function App() {
